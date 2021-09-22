@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <!-- Headings -->
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+
+        <!-- Paragraph 1 -->
+        <!-- <strong></strong> = Bold the text -->
+        <!-- <em></em> = Italic -->
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Ipsam et delectus quaerat. <strong>Odio ipsam alias</strong>, nobis 
+            laudantium <em>voluptate doloribus</em> voluptates animi nemo nam 
+            provident cupiditate corrupti earum iusto? Eius, et!
+        </p>
+
+        <!-- Paragraph 2 -->
+        <!-- <a href="about.html"></a> = Atribute a link for a local file -->
+        <!-- <a href="http://______"></a> = Atribute a link for an internet page -->
+        <!-- target="_blanck" = open in a new page -->
+        <p>
+            <a href="C:\Users\vinic\OneDrive\Área de Trabalho\HTML Creat\index.html" target="_blank">
+            Lorem ipsum</a> dolor sit, amet <a href="http://google.com.br" target="_blank">
+            consectetur adipisicing elit</a>. Ipsam et delectus quaerat. Odio ipsam alias, 
+            nobis laudantium voluptate doloribus voluptates animi nemo nam provident 
+            cupiditate corrupti earum iusto? Eius, et!
+        </p>
+
+        <!-- Paragraph 3 -->
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Eum obcaecati blanditiis quo vero deserunt voluptates ea 
+            suscipit, ut tempora nihil molestias error nesciunt enim 
+            quibusdam veritatis, et fugit soluta rem.
+        </p>
+
+        <!-- Lists -->
+        <!-- ul put a tabular dot first than the text-->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+
+        <!-- ol put a tabular ordered number first than the text-->
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+
+        <!-- Table -->
+        <!-- tr = t row -->
+        <!-- th = t head -->
+        <!-- td = t data -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vinicius Golfetto</td>
+                    <td>vinicius.golfetto@myemail.com</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>Paulo Vasconcellos</td>
+                    <td>paulo.vasconcellos@myemail.com</td>
+                    <td>37</td>
+                </tr>
+                <tr>
+                    <td>Maria Antonia</td>
+                    <td>maria.antonia@myemail.com</td>
+                    <td>42</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br> <!-- <br> = line breaker -->
+        <hr> <!-- <hr> = show a line crossing the page -->
+        <br>
+
+        <!-- Forms -->
+        <!-- <div></div> & <br> helps to organize which label in separete lines-->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name:</label>
+                <input type="text" name="firstName" placeholder="enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name:</label>
+                <input type="text" name="lastName" placeholder="enter last name">
+            </div>
+            <br>
+            <div>
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="enter e-mail">
+            </div>
+            <br>
+            <div>
+                <label>Message:</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender:</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <div>
+        <!--Button-->
+            <input type="submit" name="submit" value="Submit 1">
+            </div>
+        </form>
+
+        <!-- Button -->
+        <br>
+        <button>Submit 2</button>
+
+        <!-- Image -->
+        <br>
+        <br>
+        <a href="C:\Users\vinic\OneDrive\Área de Trabalho\HTML Creat\image1.jpg" target="_blank">
+            <img src="C:\Users\vinic\OneDrive\Área de Trabalho\HTML Creat\image1.jpg" alt="My Image"
+            width="500">
+        </a>
+
+        <!-- Quotations -->
+        <blockquote cite="http://traversymedia.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Modi reiciendis nam dolores possimus tempore ratione iure 
+            maiores eius dolorem eaque praesentium voluptatem, 
+            necessitatibus perferendis, esse amet voluptatum placeat id sed.
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr>is awesome</p>
+
+        <p><cite>HTML crash course</cite>by Brand Traversy</p>
+    </body>
+</html>
